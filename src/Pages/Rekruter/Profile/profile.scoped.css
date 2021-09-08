@@ -1,0 +1,19 @@
+.card-title p {
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #9EA0A5;
+}
+
+.contact {
+    text-align: left;
+    width: max-content;
+    margin: 0 auto;
+}

@@ -1,0 +1,24 @@
+.skill {
+    padding: 0 10px;
+    margin-right: 10px;
+    background: rgba(251, 176, 23, 0.6);
+    border: 1px solid #FBB017;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.card .title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    color: #9EA0A5;
+}
