@@ -1,5 +1,5 @@
 <h1 align="center">
-  App Ticketing
+  App HireJob
 </h1>
 
 <p align="center"><img src="https://www.arkademy.com/img/logo%20arkademy.1c82cf5c.svg" width="500px" alt="Arkademylogo.svg" /></p>
@@ -15,7 +15,7 @@
 
 ```bash
 
-  git clone https://github.com/Gustiana882/front-ticketing.git
+  git clone https://github.com:Gustiana882/HireJob.git
   
 ```
 
@@ -29,7 +29,7 @@
 ### run app
 ```bash
 
-  cd front-ticketing
+  cd HireJob
 
   yarn start
   
@@ -48,96 +48,8 @@ You will also see any lint errors in the console.
   yarn run build
   
 ```
-## for developer
 
-### standar request login 
-```bash
-  {
-    "email": "user",
-    "password":"user1234"
-  }
-```
+### description
+HireJob adalah aplikasi yang digunakan untuk para HRD dalam mencari kandidat karyawan sesuai yang di inginkan, dan untuk para pencari kerja bisa bergabung dan menulis profilenya semenarik mungkin yang nantinya akan dilihat oleh recruter. Aplikasi ini dibuat dengan menggunakan bahasa pemrograman Javascript, untuk frontend nya menggunakan framework React Js,dan Backendnya disini menggunakan framework Express Js. Tools pendukungnya ada Figma, VS Code, dan Postmant
 
-### standar request register
-```bash
-  {
-    "name": "user",
-    "email": "user@mail.com",
-    "password": "user1234"
-```
 
-### standar response ticket API
-```bash
-  [
-    { 
-      "id" : "1",
-      "uuid": "AB-221",
-      "image": "img.jpg",
-      "maskapai" : "Garuda Indonesia",
-      "from": "Indonesi",
-      "to": "Tokyo",
-      "time": [
-          {
-            "depature": "00:00",
-            "arrived": "04:00",
-            "transit": "1",
-          },
-          {
-            "depature": "06:00",
-            "arrived": "10:00",
-            "transit": "2",
-          }
-        ],
-       "price": [
-          {
-            "idclass": 3,
-            "class": "Economy",
-            "adult": 1200000,
-            "child": 800000,
-          },
-          {
-            "idclass": 2,
-            "class": "Business",
-            "adult": 1800000,
-            "child": 1200000,
-          },
-          {
-            "idclass": 1,
-            "class": "FirstClass",
-            "adult": 2300000,
-            "child": 1500000,
-          }
-        ],
-       "date": "Monday, 20 july 20",
-       "chairsAmount": 108,
-       "gate": 221,
-       "terminal": "A",
-    }
-  ]
-```
-
-### standar request booking ticket
-```bash
-{
-  "title": "Mr.",
-  "name": "Budi",
-  "nationallity": "Indonesia",
-  "userId": 1,
-  "idTicket": "AB-221",
-  "Price": 3000000,
-  "statusPay": false,
-}
-  
-```
-
-### standar response destination
-```bash
-[
-  {
-    "id": 1,
-    "city": "Jakarta",
-    "country": "Indonesia",
-    "image": "image"
-   }
-]
-```
